@@ -5,16 +5,21 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "./node_modules/.bin/webpack --config webpack.config.js"  
+    "build": "./node_modules/.bin/webpack --config webpack.config.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "@vue/compiler-sfc": "^3.0.0-rc.5",
+    "css-loader": "^4.2.1",
+    "node-sass": "^4.14.1",
+    "sass-loader": "^9.0.3",
+    "style-loader": "^1.2.1",
     "vue": "^3.0.0-rc.5",
     "vue-loader": "^16.0.0-beta.4",
     "webpack": "^4.44.1",
     "webpack-cli": "^3.3.12"
-  }
+  },
+  "dependencies": {}
 }
