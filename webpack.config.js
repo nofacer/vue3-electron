@@ -20,9 +20,26 @@ module.exports = {
           'css-loader',
           'sass-loader'
         ]
+      },
+      {
+        test: /\.(png|jpe?g|gif)$/i,
+        use: [
+          {
+            loader: 'file-loader',
+            options: {
+              name: 'imgs/[hash].[ext]',
+              publicPath: 'dist'
+            },
+          },
+        ],
       }
     ]},
-    plugins: [
-      new VueLoaderPlugin()
-    ]
+  plugins: [
+    new VueLoaderPlugin()
+  ],
+  resolve: {
+    alias: {
+      '@': path.resolve('src')
+    }
+  }
 };

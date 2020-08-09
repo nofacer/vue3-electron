@@ -13,6 +13,7 @@
   "devDependencies": {
     "@vue/compiler-sfc": "^3.0.0-rc.5",
     "css-loader": "^4.2.1",
+    "file-loader": "^6.0.0",
     "node-sass": "^4.14.1",
     "sass-loader": "^9.0.3",
     "style-loader": "^1.2.1",

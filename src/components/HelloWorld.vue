@@ -1,5 +1,6 @@
 <template>
   <div class="hello-world">
+    <img :src="require('@/img/vue_logo.png').default" />
     <h1>{{ msg }}</h1>
   </div>
 </template>
@@ -23,7 +24,5 @@ h1 {
   position: absolute;
   top:50%;
   left:50%;
-  transform: translateY(-50%);
-  transform: translateX(-50%);
 }
 </style>
