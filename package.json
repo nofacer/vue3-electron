@@ -6,8 +6,11 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "./node_modules/.bin/webpack --config webpack.config.js",
-    "start": "electron ."
+    "start": "electron .",
+    "pack": "electron-builder --dir",
+    "dist": "electron-builder"
   },
+  "postinstall": "electron-builder install-app-deps",
   "keywords": [],
   "author": "",
   "license": "ISC",
@@ -15,6 +18,7 @@
     "@vue/compiler-sfc": "^3.0.0-rc.5",
     "css-loader": "^4.2.1",
     "electron": "^9.2.0",
+    "electron-builder": "^22.8.0",
     "file-loader": "^6.0.0",
     "node-sass": "^4.14.1",
     "sass-loader": "^9.0.3",
@@ -24,5 +28,14 @@
     "webpack": "^4.44.1",
     "webpack-cli": "^3.3.12"
   },
-  "dependencies": {}
+  "dependencies": {},
+  "build":{
+    "files": [
+      "./dist/**/*",
+      "./index.html"
+    ],
+    "directories":{
+      "output": "package"
+    }
+  }
 }
