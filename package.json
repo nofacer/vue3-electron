@@ -2,10 +2,11 @@
   "name": "myApp",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "./dist/main.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "./node_modules/.bin/webpack --config webpack.config.js"
+    "build": "./node_modules/.bin/webpack --config webpack.config.js",
+    "start": "electron ."
   },
   "keywords": [],
   "author": "",
@@ -13,6 +14,7 @@
   "devDependencies": {
     "@vue/compiler-sfc": "^3.0.0-rc.5",
     "css-loader": "^4.2.1",
+    "electron": "^9.2.0",
     "file-loader": "^6.0.0",
     "node-sass": "^4.14.1",
     "sass-loader": "^9.0.3",

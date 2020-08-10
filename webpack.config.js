@@ -2,9 +2,12 @@ const path = require('path');
 const { VueLoaderPlugin } = require('vue-loader');
 
 module.exports = {
-  entry: './index.js',
+  entry: {
+    "bundle": ["./index.js"],
+    "main": ["./main.js"]
+  },
   output: {
-    filename: 'bundle.js',
+    filename: '[name].js',
     path: path.resolve(__dirname, 'dist'),
   },
   module: {
@@ -41,5 +44,6 @@ module.exports = {
     alias: {
       '@': path.resolve('src')
     }
-  }
+  },
+  target: "electron-renderer"
 };
