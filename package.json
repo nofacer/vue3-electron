@@ -1,5 +1,5 @@
 {
-  "name": "myApp",
+  "name": "vue3-electron-template-app",
   "version": "1.0.0",
   "description": "",
   "main": "./dist/main.js",
