@@ -16,19 +16,19 @@
   "license": "ISC",
   "devDependencies": {
     "@vue/compiler-sfc": "^3.0.0-rc.5",
-    "css-loader": "^4.2.1",
-    "electron": "^10.1.1",
+    "css-loader": "^4.3.0",
+    "electron": "^11.2.3",
     "electron-builder": "^22.8.0",
-    "file-loader": "^6.0.0",
+    "file-loader": "^6.2.0",
+    "glob-to-regexp": "^0.4.1",
     "node-sass": "^4.14.1",
     "sass-loader": "^9.0.3",
     "style-loader": "^1.2.1",
-    "vue": "^3.0.0-rc.5",
+    "url-loader": "^4.1.1",
+    "vue": "^3.0.5",
     "vue-loader": "^16.0.0-beta.4",
-    "webpack": "^4.44.1",
-    "webpack-cli": "^3.3.12"
+    "webpack-cli": "^4.5.0"
   },
-  "dependencies": {},
   "build": {
     "files": [
       "./dist/**/*",

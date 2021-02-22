@@ -1,9 +1,12 @@
 <template>
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <div class="center">
+    <HelloWorld msg="Welcome to Electron+Vue3 App"/>
+  </div>
 </template>
 
 <script>
 import HelloWorld from './src/components/HelloWorld.vue'
+
 export default {
   name: 'App',
   components: {
@@ -11,3 +14,12 @@ export default {
   }
 }
 </script>
+
+<style lang="scss">
+.center {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+</style>

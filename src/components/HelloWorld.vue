@@ -1,6 +1,6 @@
 <template>
   <div class="hello-world">
-    <img :src="require('@/img/vue_logo.png').default" />
+    <img src="@/img/vue_logo.png" alt="">
     <h1>{{ msg }}</h1>
   </div>
 </template>
@@ -20,9 +20,10 @@ h1 {
   color: $nav-color;
 }
 
-.hello-world{
-  position: absolute;
-  top:50%;
-  left:50%;
+.hello-world {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items:center;
 }
 </style>

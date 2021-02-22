@@ -1,12 +1,13 @@
 <!doctype html>
 <html>
-  <head>
+<head>
     <meta content="text/html;charset=utf-8" http-equiv="Content-Type">
-    <meta content="utf-8" http-equiv="encoding">
     <title>Getting Started</title>
-  </head>
-  <body>
-    <div id="app"></div>
-    <script src="./dist/bundle.js"></script>
-  </body>
+</head>
+<body>
+<div id="app"></div>
+<!--    This will cause electron throw error message-->
+<!--    <script src="./dist/bundle.js"></script>-->
+<script>require('./dist/bundle.js')</script>
+</body>
 </html>
