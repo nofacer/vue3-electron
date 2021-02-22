@@ -7,3 +7,6 @@ What used:
 * Electron
 * Webpack
 * Scss
+
+Tutorial:
+[Vue3+Electron整合方式](https://zhuanlan.zhihu.com/p/181015456)
