@@ -1,5 +1,5 @@
 # vue3-electron
-[![Node.js CI](https://github.com/nofacer/vue3-electron/actions/workflows/node.js.yml/badge.svg)](https://github.com/nofacer/vue3-electron/actions/workflows/node.js.yml)
+[![Package Test](https://github.com/nofacer/vue3-electron/actions/workflows/package-test.yml/badge.svg)](https://github.com/nofacer/vue3-electron/actions/workflows/package-test.yml)
 [![CodeQL](https://github.com/nofacer/vue3-electron/actions/workflows/codeql-analysis.yml/badge.svg)](https://github.com/nofacer/vue3-electron/actions/workflows/codeql-analysis.yml)
 
 Combine Vue3(beta) with Electron
